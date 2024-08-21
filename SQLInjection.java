@@ -21,7 +21,7 @@ public class SQLInjection {
 			stmnt.close ();
 			conn.close ();
 		} catch (SQLException err) {
-			err.printStackTrace ();
+			//err.printStackTrace ();
 		}
 	}
 	
